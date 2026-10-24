@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://cjgq75r8hq5h8"]
+
+[ext_resource type="Texture2D" uid="uid://dnbsr2ldsfyyj" path="res://assets/pluma.png" id="1"]
+
+[sub_resource type="CircleShape2D" id="Forma"]
+radius = 14.0
+
+[node name="Pluma" type="Area2D" unique_id=1194726451 groups=["monedas"]]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=536073269]
+texture = ExtResource("1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2083062664]
+shape = SubResource("Forma")
